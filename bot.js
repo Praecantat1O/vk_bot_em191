@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const VkBot = require('node-vk-bot-api')
 const app = express()
 
-const token = "8be28a50391b6767ceb08d70b41689f19062fc90cf8d4a29aa01a54f56d66e5f9d432616d52e330db37de"
+const token = "..."
 const bot = new VkBot({
     token: token,
     group_id: "190347441",
